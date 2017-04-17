@@ -1,0 +1,23 @@
+{
+  "name": "date-timestamp",
+  "version": "0.0.1",
+  "description": "timestamp by using new Date() or format",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazikai/date-timestamp.git"
+  },
+  "keywords": [
+    "timestamp",
+    "date-timestamp"
+  ],
+  "author": "kazikai <kazikai84@gmail.com> (http://blog.kazikai.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazikai/date-timestamp/issues"
+  },
+  "homepage": "https://github.com/kazikai/date-timestamp#readme"
+}
