@@ -1,6 +1,6 @@
 {
   "name": "date-timestamp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "timestamp by using new Date() or format",
   "main": "index.js",
   "scripts": {

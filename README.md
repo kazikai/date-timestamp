@@ -1,4 +1,4 @@
-# date-timestamp 0.1.0
+# date-timestamp 0.1.1
 
 timestamp를 자동으로 반환해주는 Node.js 라이브러리 입니다.
 

@@ -8,9 +8,9 @@ var timestamp = function(dateObject, pattern){
       min = (dateObject.getMinutes() < 10 ? '0' : '') + dateObject.getMinutes(),
       sec = (dateObject.getSeconds() < 10 ? '0' : '') + dateObject.getSeconds(),
       month = dateObject.getMonth() < 9 ? '0' + (dateObject.getMonth() + 1)  : dateObject.getMonth() + 1,
-      day = dateObject.getDate() < 10 ? ('0' + dateObject.getDate()) : dateObject.getDate(); 
- 
-  var result = year + month + day + '_' + hour + min + sec;
+      day = dateObject.getDate() < 10 ? ('0' + dateObject.getDate()) : dateObject.getDate();
+
+  var result = '' + year + month + day + '_' + hour + min + sec;
   if (pattern === 'yyyy-mm-dd') {
     result = year + '-' + month + '-' + day;
   } else if (pattern === 'yyyy-mm-dd-hh-mm-ss') {
